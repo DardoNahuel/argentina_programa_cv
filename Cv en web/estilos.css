@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.informacion {
+    width: 650px;
+    background-color: #C5E7E2;
+}
+
+.datos {
+    height: 400px;
+    background-color: #BEB7A4;
+    width: 50%;
+    float: left;
+    border: black;
+    border-style: solid;
+}
+
+.formacion {
+    height: 400px;
+    background-color: #BEB7A4;
+    width: 50%;
+    float: left;
+    border: black;
+    border-style: solid;
+}
+
+.mail {
+    width: 50%;
+    float: left;
+}
+
+.numero {
+    width: 50%;
+    float: left;
+}
+
+header {
+    height: 150px;
+}
+
+.imagen_principal {
+    clear: both;
+    display: table;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    border-style: double;
+    border-color: brown;
+}
+
+i {
+    width: 25;
+    height: 25;
+    color: rgb(32, 20, 88);
+}
+
+#nombre {
+    padding: 60px;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Unbounded', cursive;
+    
+}
+
+dt {
+    font-family: 'Lato', sans-serif;
+}
+
+.boton {
+    background-color: #C5E7E2;
+}
+
+button {
+    background-color: #25d366;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    left: 25px;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 9999999;
+}
